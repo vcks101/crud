@@ -1,0 +1,11 @@
+Api rest en flask
+	https://www.youtube.com/watch?v=D6LZnrDbQPM
+
+mysql
+	https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=81&codigo=81&inicio=75
+
+envio por post desde javascript ajax
+	https://kinsta.com/es/base-de-conocimiento/javascript-peticion-http/
+
+envio por post desde javascript fetch
+	https://desarrolloweb.com/articulos/fetch-post-ajax-javascript.html

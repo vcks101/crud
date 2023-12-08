@@ -1,0 +1,22 @@
+#main{
+    margin: 0 auto;
+    padding: 10px;
+}
+#marco{
+    border-radius: 5px;
+    border-style: solid;
+    background-color: cornflowerblue;
+    width: 70%;
+}
+
+body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+  }
+  
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+  }
