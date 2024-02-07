@@ -8,8 +8,8 @@
     <script src="app.js"></script>
     <title>Gestor de contraseñas</title>
 </head>
-<body>
-    <div id="main" class="container">
+<body style="background-color: rgb(172, 197,230)">
+  <div id="main" class="container">
         <div id="marco" class="container my-5 text-center">
             <h1>Gestor de contraseñas</h1>
             <table class="table table-stripped table-hover">
@@ -22,25 +22,15 @@
                     <th scope="col">Acciones</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>Editar  Eliminar</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>Editar  Eliminar</td>
-                  </tr>
+                <tbody id="data">
                 </tbody>
               </table>
-
+               <button type="button" class="btn btn-info" onclick="location.href = 'add.html'">
+                  <img src="imagenes/add.png" height="30" width="30"/>Agregar</button>
         </div>
+        <script>
+          consulta_general();
+        </script>
     </div>
 </body>
 </html>
