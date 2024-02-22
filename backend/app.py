@@ -20,7 +20,7 @@ def consulta_general():
         datos=cur.fetchall()
         data=[]
         for row in datos:
-            dato={'id_baul':row[0],'Plataforma':row[1],'usuario':row[2],'clave':row[3]}
+            dato={'id_baul':row[0],'plataforma':row[1],'usuario':row[2],'clave':row[3]}
             data.append(dato)
         cur.close()
         conn.close()
@@ -39,7 +39,7 @@ def consulta_individual(codigo):
         cur.close()
         conn.close()
         if datos!=None:
-            dato={'id_baul':datos[0],'Plataforma':datos[1],'usuario':datos[2],'clave':datos[3]}
+            dato={'id_baul':datos[0],'plataforma':datos[1],'usuario':datos[2],'clave':datos[3]}
             return jsonify({'baul':dato,'mensaje':'Registro encontrado'})  
         else:
             return jsonify({'mensaje':'Registro no encontrado'})     
